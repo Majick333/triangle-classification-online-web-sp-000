@@ -26,11 +26,8 @@ class Triangle
 
 
 
-    class TriangleError < StandardError
-      "You done messed up"
-    end
 
 
 
 
-end
+
