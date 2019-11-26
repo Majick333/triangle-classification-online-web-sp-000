@@ -1,5 +1,10 @@
 class Triangle
 
+
+      class TriangleError < StandardError
+        "You done messed up"
+      end
+
   def initialize(side_1,side_2,side_3)
     @side_1 = side_1
     @side_2 = side_2
