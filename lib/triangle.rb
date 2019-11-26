@@ -22,14 +22,14 @@ class Triangle
     end
 
 
-  end
-
-
-class TriangleError < StandardError
-  "You done messed up"
-end
 
 
 
+    class TriangleError < StandardError
+      "You done messed up"
+    end
 
+
+
+  #end
 end
